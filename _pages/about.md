@@ -22,7 +22,7 @@ local webhookcheck =
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
    SONA_LOADED and "Sona" or
-   "Kid with shit exploit"
+   "the fuck?"
 
 local url =
    "Insert Webhook"
