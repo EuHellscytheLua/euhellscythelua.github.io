@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-These are all my standalone scripts, either scrapped, to be put into a UI, or WIP.
+These are all my [public] standalone scripts, either scrapped, to be put into a UI, or WIP.
 
 
 ## [SCP] Area 52 - Open All Doors
