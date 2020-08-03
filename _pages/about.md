@@ -1,28 +1,47 @@
----
-layout: page
-title: Features
----
+# Eu's Standalone Scripts
 
-Eu's AOT Ui is built for the Attack On Titan:Downfall Series by Films. 
+## [SCP] Area 52 - Open All Doors
 
-It will work on all three of the test builds (Regular Stress Test, Story Mode, Abnormal Only Mode). 
+```markdown
+for i,v in pairs(workspace.Doors:GetDescendants()) do
+if v.Name == "Open" then
+v:FireServer(true)
+end
+end
+```
 
-I hope to bring more features soon and continue my scripting career to become one of the best.
+## Script Webhook - See who executes script
+```
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit"
 
-### Features
+local url =
+   "Insert Webhook"
+local data = {
+   ["content"] = "_____",
+   ["embeds"] = {
+       {
+           ["title"] = "**_____**",
+           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
 
-- Lag Server
-- Kill All Titans
-- Teleport Napes To Char [BUGGY]
-- Expand Nape Hitbox
-- Built In Infinite Yield
-- God Mode
-- Heal Player
-- Get Supplies
-- Spam Eject Blades
-- Auto-Rejoin / Kick
-- More Coming Soon.
-
-### Screenshot
-
-![UI](Capture.PNG)
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+```
