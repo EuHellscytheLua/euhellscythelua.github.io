@@ -1,4 +1,7 @@
-
+---
+layout: page
+title: Eu's AOT Ui
+---
 
 Eu's AOT Ui is built for the Attack On Titan:Downfall Series by Films. 
 
