@@ -19,4 +19,4 @@ I hope to bring more features soon and continue my scripting career to become on
 
 ### Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](Capture.PNG)
