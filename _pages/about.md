@@ -1,7 +1,3 @@
----
-layout: page
-title: Eu's Standalone Scripts
----
 
 ## [SCP] Area 52 - Open All Doors
 
