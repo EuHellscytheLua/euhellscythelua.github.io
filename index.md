@@ -1,5 +1,3 @@
-## Eu's AOT Hub
-
 Eu's AOT Ui is built for the Attack On Titan:Downfall Series by Films. 
 
 It will work on all three of the test builds (Regular Stress Test, Story Mode, Abnormal Only Mode). 
