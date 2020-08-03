@@ -21,6 +21,9 @@ I hope to bring more features soon and continue my scripting career to become on
 - Auto-Rejoin / Kick
 - More Coming Soon.
 ```
+### UI Screenshot
+
+![Screenshot](Capture.PNG)
 
 ### Download
 ```markdown
