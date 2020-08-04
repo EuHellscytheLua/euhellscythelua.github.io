@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-These are all my [public] standalone scripts, either scrapped, to be put into a UI, or WIP.
+These are all [public] standalone scripts, either ones i use, scrapped, to be put into a UI, or WIP.
 
 
 ## [SCP] Area 52 - Open All Doors
@@ -15,7 +15,7 @@ end
 end
 ```
 
-## Script Webhook - See who executes script
+## Script Webhook - See who executes script, this one aint mine but is very usefull.
 ```
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
