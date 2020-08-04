@@ -15,7 +15,7 @@ end
 end
 ```
 
-## Script Webhook - See who executes script, this one aint mine but is very usefull.
+## Script Webhook - See who executes script, this one aint mine but is very useful.
 ```
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
