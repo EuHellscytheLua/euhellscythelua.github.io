@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Scripts
 ---
 These are all [public] standalone scripts, either ones i use, scrapped, to be put into a UI, or WIP.
 
