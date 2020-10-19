@@ -4,6 +4,11 @@ title: About
 ---
 These are all [public] standalone scripts, either ones i use, scrapped, to be put into a UI, or WIP.
 
+## AOT: Last Breath Hitbox Expander
+
+```markdown
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EuHellscytheLua/Lua-Script/master/LastBreathHitBox')))()
+```
 
 ## [SCP] Area 52 - Open All Doors
 
