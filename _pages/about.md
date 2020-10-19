@@ -2,7 +2,8 @@
 layout: page
 title: Scripts
 ---
-These are all [public] standalone scripts, either ones i use, scrapped, to be put into a UI, or WIP.
+These are all [public] standalone scripts I have made or use.
+Updated somewhat frequently, patched scripts are removed.
 
 ## AOT: Last Breath Hitbox Expander
 
@@ -10,12 +11,17 @@ These are all [public] standalone scripts, either ones i use, scrapped, to be pu
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EuHellscytheLua/Lua-Script/master/LastBreathHitBox')))()
 ```
 
-## [SCP] Area 52 - Open All Doors
+## Untitled Door Game Auto Complete [Requires Level 100+] 
 
 ```markdown
-for i,v in pairs(workspace.Doors:GetDescendants()) do
-if v.Name == "Open" then
-v:FireServer(true)
+local player = game.Players.LocalPlayer
+local counter = 0
+while true do wait(2)
+
+if workspace.Checkpoints:FindFirstChild(tostring(counter)) then
+
+counter = counter +  1
+game.workspace[player.Name].HumanoidRootPart.CFrame = workspace.Checkpoints:FindFirstChild(tostring(counter)).CFrame
 end
 end
 ```
